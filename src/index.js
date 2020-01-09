@@ -10,6 +10,7 @@ import resultReducer from './store/reducers/result';
 import thunk from 'redux-thunk'
 
 
+
 const rootReducer = combineReducers({
     counter: counterReducer,
     result: resultReducer
